@@ -1,0 +1,30 @@
+html, body {
+	height: 100%;
+	font-family: "Impact", sans-serif;
+	background-color:yellow;
+
+}
+
+
+h1, p {
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	font-family: "Gloria Hallelujah", sans-serif;
+	size:500vw;
+	text-align: center;
+	color: purple;
+	text-decoration-color: white;
+}
+
+
+div{
+color:white;
+background-color: blue;
+line
+width:700px;	
+height: 110px;
+margin-top: 10px;
+}
