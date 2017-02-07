@@ -1,0 +1,25 @@
+html, body {
+	height: 100%;
+	;
+	font-family: "Impact", sans-serif;
+	background-color:black;
+	color:white;
+	font-size: 50px;
+	text-align: center;
+
+}
+
+h1, p {
+	margin: 0;
+	padding: 0;
+}
+
+div{
+color:red;
+width:700px;	
+height: 110px;
+margin-top: 10px;
+padding-left: 275px;
+text-align: center;
+
+}
