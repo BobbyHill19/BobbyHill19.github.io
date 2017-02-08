@@ -23,3 +23,27 @@ padding-left: 275px;
 text-align: center;
 
 }
+
+a:link {
+	color: red;
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+/*
+div{
+	background:yellow;
+	width: 500px;
+	transition: background 3s;
+	padding-top: 350px;
+	padding-bottom: 400px;
+	position: fixed;
+	top:0px;
+	left:500px;
+}
+div:hover{
+	background-color: transparent;
+}
+*/

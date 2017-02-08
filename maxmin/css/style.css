@@ -1,9 +1,36 @@
 html, body {
 	height: 100%;
 	font-family: "Roboto", sans-serif;
+	background-color: rgb(183,233,75);
 }
 
-h1, p {
-	margin: 0;
-	padding: 0;
+
+
+div{
+background-color: blue;
+width:300px;	
+height: 300px;
+transition: background 3s;
+margin-top: 50px;
+border-radius: 300px;
+padding-left: 750px;
+padding-right: 200px;
+
+}
+
+div:hover{
+	background-color: transparent;
+}
+
+
+
+
+.circle {
+	border-radius: 50%;
+}
+*/
+.large {
+	width: 300px;
+	padding-top: 50px;
+	height: 200px;
 }
