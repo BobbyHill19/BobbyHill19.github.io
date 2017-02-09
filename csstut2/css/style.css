@@ -1,0 +1,60 @@
+/*.dot{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: rgb(200,20,50);
+}
+
+
+.dot .dot {
+	width:100px;
+	height:100px;
+	background-color: rgb(200, 20, 50);
+}*/
+/*Pseudo Selcector
+Pseudo class
+always start with :
+*/
+
+/*.dot:hover{
+	background-color: rgba(0,180,20);
+	cursor:pointer;
+}
+
+.dot*/
+
+.box{
+	width: 200px;
+	height: 200px;
+	background-color: rgb(200,20, 50);
+	margin-bottom: 10px;
+	float: left;
+	margin-right:10px;
+}
+
+.last{
+	clear:both;
+}
+
+.smalldot{
+	width:25px;
+	height: 25px;
+	border-radius: 50%
+	background-color: black;
+	position: relative;
+	left:40px;
+	top:20px;
+}
+
+.special{
+	width:340px;
+}
+
+/*.box1{
+	position: absolute;
+	left:500px;
+}
+
+.box1{
+	position: 
+}*/
