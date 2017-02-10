@@ -14,15 +14,15 @@ h1, p {
 	padding: 0;
 }
 
-/*.NastyWoman{
-	font-family: "Anton"
-}*/
+.NastyWoman{
+	font-family: "Anton", sans-serif;
+}
 
-div{
+/*div{
 	font-family: "Anton"
 	font-size: 100px;
 	padding-top: 40px;
-}
+}*/
 
 .indexline1{
 color:white;
@@ -82,6 +82,32 @@ padding-left: 275px;
 	height:20px;
 }
 
+.pg2line1{color:white;
+width:700px;	
+height: 110px;
+margin-top: 10px;
+padding-left: 275px;}
+
+
+.pg2line1:hover{
+	width: 30px;
+	height:20px;
+}
+
+.pg2line2{color:white;
+width:700px;	
+height: 110px;
+margin-top: 10px;
+padding-left: 275px;
+}
+
+.pg2line2:hover{
+	width: 30px;
+	height:20px;
+}
+
+
+
 
 a:link {
 	color: blue;
@@ -91,18 +117,3 @@ a:link {
 	font-size: 50px;
 }
 
-/*
-div{
-	background:yellow;
-	width: 500px;
-	transition: background 3s;
-	padding-top: 350px;
-	padding-bottom: 400px;
-	position: fixed;
-	top:0px;
-	left:500px;
-}
-div:hover{
-	background-color: transparent;
-}
-*/
