@@ -1,10 +1,10 @@
 html, body {
 	height: 100%;
 	;
-	font-family: "Impact", sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	background-color:black;
 	color:white;
-	font-size: 50px;
+	font-size: 30px;
 	text-align: center;
 
 }
@@ -14,15 +14,61 @@ h1, p {
 	padding: 0;
 }
 
+/*.NastyWoman{
+	font-family: "Anton"
+}*/
+
 div{
-color:red;
+	font-family: "Anton"
+	font-size: 100px;
+	padding-top: 40px;
+}
+
+.indexline1{
+color:white;
 width:700px;	
 height: 110px;
 margin-top: 10px;
 padding-left: 275px;
-text-align: center;
+/*text-align: center;*/
 
 }
+
+.indexline1:hover{
+	width: 30px;
+	height:20px;
+}
+
+.indexline2{
+color:white;
+width:700px;	
+height: 110px;
+margin-top: 10px;
+padding-left: 275px;
+/*text-align: center;*/
+
+}
+
+.indexline2:hover{
+	width: 30px;
+	height:20px;
+}
+
+.indexline3{
+color:white;
+width:700px;	
+height: 110px;
+margin-top: 10px;
+padding-left: 275px;
+
+}
+
+.indexline3:hover{
+	width: 30px;
+	height:20px;
+}
+
+
 
 a:link {
 	color: red;
