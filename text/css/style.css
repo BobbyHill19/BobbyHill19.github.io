@@ -90,7 +90,7 @@ padding-left: 275px;}
 
 
 .pg2line1:hover{
-	width: 30px;
+	width: 40px;
 	height:20px;
 }
 
@@ -102,6 +102,28 @@ padding-left: 275px;
 }
 
 .pg2line2:hover{
+	width: 40px;
+	height:20px;
+}
+
+.pg3line1{color:white;
+width:700px;	
+height: 110px;
+margin-top: 10px;
+padding-left: 275px;}
+
+.pg3line1:hover{
+	width: 30px;
+	height:20px;
+}
+
+.pg3line2{color:white;
+width:700px;	
+height: 110px;
+margin-top: 10px;
+padding-left: 275px;}
+
+.pg3line2{
 	width: 30px;
 	height:20px;
 }
