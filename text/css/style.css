@@ -159,6 +159,60 @@ padding-left: 275px;}
 	height:20px;
 }
 
+.pg5line1{color:white;
+width:700px;	
+height: 110px;
+margin-top: 10px;
+padding-left: 275px;}
+
+.pg5line1:hover{
+	width: 30px;
+	height:20px;
+}
+
+.pg5line2{color:white;
+width:700px;	
+height: 110px;
+margin-top: 10px;
+padding-left: 275px;}
+
+.pg5line2:hover{
+	width: 30px;
+	height:20px;
+}
+
+.pg6line1{color:white;
+width:700px;	
+height: 110px;
+margin-top: 10px;
+padding-left: 275px;}
+
+.pg6line1:hover{
+	width: 30px;
+	height:20px;
+}
+
+.pg6line2{color:white;
+width:700px;	
+height: 110px;
+margin-top: 10px;
+padding-left: 275px;}
+
+.pg6line2:hover{
+	width: 30px;
+	height:20px;
+}
+
+.pg7line1{color:white;
+width:700px;	
+height: 110px;
+margin-top: 10px;
+padding-left: 275px;}
+
+.pg7line1:hover{
+	width: 30px;
+	height:20px;
+}
 
 a:link {
 	color: blue;
