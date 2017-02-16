@@ -16,6 +16,8 @@ h1, p {
 
 .NastyWoman{
 	font-family: "Anton", sans-serif;
+	float: none;
+	position: relative;
 }
 
 /*div{
@@ -36,8 +38,8 @@ padding-left: 275px;
 
 .indexline1:hover{
 	color:red;
-	width: 30px;
-	height:20px;
+	width: 90%;
+	height:50px;
 }
 
 .indexline2{
@@ -52,8 +54,8 @@ padding-left: 275px;
 
 .indexline2:hover{
 	color:red;
-	width: 30px;
-	height:20px;
+	width: 90%;
+	height:50px;
 }
 
 .indexline3{
@@ -67,8 +69,8 @@ padding-left: 275px;
 
 .indexline3:hover{
 	color:red;
-	width: 30px;
-	height:20px;
+	width: 90%;
+	height:50px;
 }
 
 .pg1line1{
@@ -82,8 +84,8 @@ padding-left: 275px;
 
 .pg1line1:hover{
 	color:red;
-	width: 30px;
-	height:20px;
+	width: 90%;
+	height:50px;
 }
 
 .pg2line1{color:white;
@@ -95,8 +97,8 @@ padding-left: 275px;}
 
 .pg2line1:hover{
 	color:red;
-	width: 40px;
-	height:20px;
+	width: 90%;
+	height:50px;
 }
 
 .pg2line2{color:white;
@@ -108,8 +110,8 @@ padding-left: 275px;
 
 .pg2line2:hover{
 	color:red;
-	width: 40px;
-	height:20px;
+	width: 90%;
+	height:50px;
 }
 
 .pg3line1{color:white;
@@ -120,8 +122,8 @@ padding-left: 275px;}
 
 .pg3line1:hover{
 	color:red;
-	width: 30px;
-	height:20px;
+	width: 90%;
+	height:50px;
 }
 
 .pg3line2{color:white;
@@ -132,8 +134,8 @@ padding-left: 275px;}
 
 .pg3line2:hover{
 	color:red;
-	width: 30px;
-	height:20px;
+	width: 90%;
+	height:50px;
 }
 
 .pg4line1{color:white;
@@ -144,8 +146,8 @@ padding-left: 275px;}
 
 .pg4line1:hover{
 	color:red;
-	width: 30px;
-	height:20px;}
+	width: 90%;
+	height:50px;}
 
 .pg4line2{color:white;
 width:700px;	
@@ -155,8 +157,8 @@ padding-left: 275px;}
 
 .pg4line2:hover{
 	color:red;
-	width: 30px;
-	height:20px;}
+	width: 90%;
+	height:50px;}
 
 .pg4line3{color:white;
 width:700px;	
@@ -166,8 +168,8 @@ padding-left: 275px;}
 
 .pg4line3:hover{
 	color:red;
-	width: 30px;
-	height:20px;
+	width: 90%;
+	height:50px;
 }
 
 .pg5line1{color:white;
@@ -178,8 +180,8 @@ padding-left: 275px;}
 
 .pg5line1:hover{
 	color:red;
-	width: 30px;
-	height:20px;
+	width: 90%;
+	height:50px;
 }
 
 .pg5line2{color:white;
@@ -190,8 +192,8 @@ padding-left: 275px;}
 
 .pg5line2:hover{
 	color:red;
-	width: 30px;
-	height:20px;
+	width: 90%;
+	height:50px;
 }
 
 .pg6line1{color:white;
@@ -202,8 +204,8 @@ padding-left: 275px;}
 
 .pg6line1:hover{
 	color:red;
-	width: 30px;
-	height:20px;
+	width: 90%;
+	height:50px;
 }
 
 .pg6line2{color:white;
@@ -214,8 +216,8 @@ padding-left: 275px;}
 
 .pg6line2:hover{
 	color:red;
-	width: 30px;
-	height:20px;
+	width: 90%;
+	height:50px;
 }
 
 .pg7line1{color:white;
@@ -226,8 +228,8 @@ padding-left: 275px;}
 
 .pg7line1:hover{
 	color:red;
-	width: 30px;
-	height:20px;
+	width: 90%;
+	height:50px;
 }
 
 a {
