@@ -2,7 +2,7 @@
 
 function setup(){
   createCanvas(windowWidth, windowHeight,  WEBGL);
-  background(230);
+  background(158,62,151);
 }
 
 function draw(){
