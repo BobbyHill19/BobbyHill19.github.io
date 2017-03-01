@@ -7,8 +7,8 @@ function setup(){
 
 function draw(){
   
-  var red = map(mouseX, 0, width, 0, 255);
-  var blue = map(mouseY, 0, height, 0, 255);
+  var purple = map(mouseX, 0, width, 0, 255);
+  var yellow = map(mouseY, 0, height, 0, 255);
   
   
   rotateY(frameCount * 0.01);
