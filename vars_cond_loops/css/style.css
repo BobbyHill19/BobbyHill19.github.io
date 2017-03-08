@@ -1,0 +1,90 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background: -webkit-linear-gradient(-90deg, red, yellow);
+  background: -webkit-linear-gradient(top, #dee9f9 0%,#7db9e8 100%); 
+ background: -webkit-linear-gradient(-90deg, blue, purple,yellow) ;
+}
+
+
+#bar {
+  position: fixed;
+  bottom: 0;
+  height: 150px;
+  width: 100%;
+  line-height: 150px;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  animation: reveal;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  z-index: 99;
+}
+
+
+#balloon-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+/*#congrats.on{
+  opacity:1;
+  transition: all 2s;
+}
+
+#congrat
+*/
+.balloon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 12px 6px;
+  background-image: url("../img/balloon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  float: left;
+  animation: drift;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.big{
+  width: 80px;
+  height: 80px;
+}
+
+
+.popped{
+  opacity: 0;
+  pointer-events: none;
+}
+
+@keyframes drift {
+
+  0% {
+    right: -40px;
+}
+
+50%{ 
+  left: -40px;
+
+}
+
+100%{
+  left:70px;
+
+}
+
+}
+

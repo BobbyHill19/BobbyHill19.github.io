@@ -1,0 +1,226 @@
+  h1{
+    color: white;
+  font-family: "Uppercut Angle", helvetica;
+  }
+
+
+   p {
+    font-family: "Uppercut Angle";
+  width: 700px;
+  margin: 0 auto;
+  transform-origin: center center;
+  font-family: arial black;
+  background-color: rgb(158,62,151);
+  padding: 4px 4px 4px 4px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-style: italic;
+}
+
+body {
+  padding-top: 50px;
+  margin: 0;
+}
+
+div#mousePos {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: blue(20,20,20,0.8);
+  color: white;
+}
+/*
+.shapecontainer div {
+  width: 100px;
+  height: 100px;
+  background: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  margin-top: 30px;
+  position: fixed;
+  
+}*/
+
+#shape1 {
+
+  position: fixed;
+  left: 30%;
+  -webkit-transition: width 2s, linear 2s; 
+    transition: width 2s, linear 2s;
+    transform: rotate(45deg);
+    transition-timing-function: ease-out;
+
+}
+
+
+
+#shape1:hover {
+    width: 100%;
+    background:yellow;
+}
+
+      
+
+#shape2 {
+  position: fixed;
+  left: 60%;
+  -webkit-transition: width 8s, linear 2s; 
+    transition: width 8s, linear 2s;
+    transform: rotate(45deg);
+    transition-timing-function: ease-out;
+
+}
+
+#shape2:hover {
+    width: 100%;
+    background:black;
+}
+
+
+
+#shape3 {
+  position: fixed;
+  left: 90%;
+  -webkit-transition: width 10s, linear 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, linear 2s;
+    transform: rotate(45deg);
+    transition-timing-function: ease-out;
+
+}
+
+#shape3:hover {
+    width: 100%;
+    background:black;
+}
+
+
+
+#shape4 {
+  position: fixed;
+  left: 15%;
+  top: 30%;
+  -webkit-transition: width 10s, linear 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, linear 2s;
+    transform: rotate(45deg);
+    transition-timing-function: ease-out;
+
+}
+
+#shape4:hover {
+    width: 100%;
+    background:black;
+}
+
+
+#shape5 {
+  position: fixed;
+  left: 45%;
+  top: 30%;
+  -webkit-transition: width 10s, linear 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 10s, linear 2s;
+    transform: rotate(45deg);
+    transition-timing-function: ease-out;
+
+}
+
+#shape5:hover {
+    width: 80%;
+    background:blue;
+   
+}
+
+#shape6 {
+  position: fixed;
+    -webkit-transition: width 10s, linear 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 10s, linear 2s;
+    transform: rotate(45deg);
+    transition-timing-function: ease-out;
+
+}
+
+#shape6:hover {
+    width: 80%;
+    background:black;
+   }
+
+#shape7 {
+  position: fixed;
+  left: 75%;
+  top: 30%;
+  -webkit-transition: width 10s, linear 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 10s, linear 2s;
+    transform: rotate(45deg);
+    transition-timing-function: ease-out;
+
+}
+
+#shape7:hover {
+    width: 80%;
+    background:black;
+   }
+
+
+#shape8 {
+  position: fixed;
+  top: 60%;
+   -webkit-transition: width 10s, linear 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 10s, linear 2s;
+    transform: rotate(45deg);
+    transition-timing-function: ease-out;
+
+}
+
+#shape8:hover {
+    width: 80%;
+    background:black;
+   
+}
+
+#shape9 {
+  position: fixed;
+  left: 30%;
+  top: 60%;
+   -webkit-transition: width 10s, linear 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 10s, linear 2s;
+    transform: rotate(45deg);
+    transition-timing-function: ease-out;
+
+}
+
+#shape9:hover {
+    width: 80%;
+    background:black;
+   
+
+}
+
+#shape10 {
+  position: fixed;
+  left: 60%;
+  top: 60%;
+   -webkit-transition: width 10s, linear 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 10s, linear 2s;
+    transform: rotate(45deg);
+    transition-timing-function: ease-out;
+
+}
+
+#shape10:hover {
+    width: 80%;
+    background:black;
+   }
+
+
+
+body {
+  height: 1000px;
+    background:black; 
+    background:blue;
+    background:black;
+    background:blue;
+    background:black;
+    
+
+    margin: 0px;
+ }
