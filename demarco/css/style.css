@@ -1,0 +1,35 @@
+
+.nick{
+	 width: 398px;
+  padding-top: 20px;
+  padding-bottom: 400px;
+  position: fixed;
+  top:0px;
+  left:228.9px;
+}
+
+ #whitebox{
+  background:white;
+  width: 398px;
+  transition: background 3s;
+  border-radius: 50%;
+  border-top-left-radius: 25%;
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius:23vw;
+  padding-top: 20px;
+  padding-bottom: 400px;
+  position: fixed;
+  top:-5px;
+  left:300px;
+}
+
+#whitebox:hover{
+  background-color: transparent;
+}
+
+.info{
+	position: fixed;
+  top:55px;
+  left:325px;
+
+}
