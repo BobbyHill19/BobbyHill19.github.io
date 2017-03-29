@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+background: -webkit-linear-gradient(left, black, rgb(159,62,151) , white)
+}
+
+h1 {
+  width: 250px;
+  margin: 40px auto 0 auto;
+  padding: 0;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  font-weight: normal;
+  font-family: Helvetica, Arial, sans-serif;
+}
+s
+
+/*#weather {
+  margin-top: 8px;
+  font-size: 44px;
+  width: 100%;
+  text-align: center;
+}
+
+.cloud{
+  position: relative;
+  /*margin: auto;*/
+  top: 1px;
+  left:420px;
+  width: 120px;
+  height: 35px;
+  border-radius: 8px;
+  /*background-color: rgb(200, 200, 200);*/
+/*  background-image: url("../img/cloud.png");*/
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+ 
+}*/
