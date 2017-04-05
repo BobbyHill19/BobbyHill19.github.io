@@ -1,46 +1,37 @@
 $(document).ready(function() {
-  var key = "016e67baecfb44548a2232006171503";
-  var url = "https://api.apixu.com/v1/current.json?key=" + key + "&q=NYC";
+  var key = "iugHnz5VJlJx1lPLrrWoPNz4xxOz92iqMeQ1Rl0o";
+  var food = "cashew"
+  var url = "https://api.nal.usda.gov/ndb/search/?format=json&q="+ food +"&sort=n&max=25&offset=0&api_key=iugHnz5VJlJx1lPLrrWoPNz4xxOz92iqMeQ1Rl0o" + key;
   var counter = 0;
 
-// $.getJSON(url, function(data) {
-// console.log(data);
-// if (counter === 0) {$("#weather").html(data["current"]["wind_kph"]);}
-// if (counter === 1) {$("#weather").html(data["current"]["wind_mph"]);}
-// if (counter === 2) {$("#weather").html(data["current"]["wind_degree"]);}
-// });
 
-$(".cloud").on("mouseenter", function() {
+
+$(".search").on("mouseenter", function() {
 //HERE ARE THE HOVER INSTRUUCTIONS
 	$(this).addClass("focused");
  });
 
-$(".cloud").on("mouseleave", function() {
+$(".search").on("mouseleave", function() {
 $(this).removeClass("focused");
 
 });
 
-$(".cloud").on("click", function() {
+$(".search").on("click", function() {
 
 	counter++;
 
 $.getJSON(url, function(data) {
-console.log(counter);
-if (counter === 1) {$("#weather").html(data["current"]["wind_kph"]);}
-if (counter === 2) {$("#weather").html(data["current"]["wind_mph"]);}
-if (counter === 3) {$("#weather").html(data["current"]["wind_degree"]);}
-if (counter === 4) {$("#weather").html(data["current"]["pressure_mb"]);}
+console.log(datas);
+if (counter === 1) {$("#search").html(data["current"]["offset"]);}
+if (counter === 2) {$("#search").html(data["current"]["group"]);}
+if (counter === 3) {$("#search").html(data["current"]["name"]);}
+if (counter === 4) {$("#search").html(data["current"]["ndbno"]);}
 });
 	$(this).toggleClass("active");
-	$("body").toggleClass("cloud");
+	$("body").toggleClass("label");
 	$("h1").html("Clicked!");
 	
 });
 
 });
 
-
-/*
-    Get weather API key at
-    https://www.apixu.com/signup.aspx
-*/
