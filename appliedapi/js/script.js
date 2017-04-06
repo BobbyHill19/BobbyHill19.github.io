@@ -38,7 +38,7 @@ if (counter === 4) {$("#search").html(foodObject["nutrients"][3]["value"]);}
 });
 	$(this).toggleClass("active");
 	$("body").toggleClass("label");
-	$("h1").html("Clicked!");
+	$("h1").html("Fact!");
 	
 });
 
