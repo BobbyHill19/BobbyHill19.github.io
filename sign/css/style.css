@@ -28,7 +28,7 @@ h1{
 	position: fixed;
   float: left;
   font-size:18px;
-  top:200px;
+  top:250px;
   width:540px;
   left:400px;
   text-align: justify;
@@ -38,7 +38,7 @@ h1{
   color:white;
   position: fixed;
   float: left;
-  top:270px;
+  top:325px;
   font-size:18px;
   width:540px;
   left:400px;
@@ -73,6 +73,74 @@ h1{
 
 .video1{
   position:fixed;
+  left:525px;
+  top:250px;
+}
+
+.thirdlink{
+  position: absolute;
+  top: 200px;
+  left:900px;
+}
+
+.Isshin1{
+  color:black;
+  position: fixed;
+  float: left;
+  font-size:18px;
+  top:100px;
+  width:540px;
   left:400px;
+  text-align: justify;
+}
+
+.Isshin2{
+ color:black;
+  position: fixed;
+  float: left;
+  top:170px;
+  font-size:18px;
+  width:540px;
+  left:400px;
+  text-align: justify;
+}
+
+.video2{
+  position:fixed;
+  left:525px;
+  top:250px;
+}
+
+.video3{
+  position:fixed;
+  left:525px;
   top:300px;
+}
+
+.fourthlink{
+  position: absolute;
+  top: 20px;
+  left:900px;
+}
+
+.Goju1{
+  color:black;
+  position: fixed;
+  float: left;
+  font-size:18px;
+  top:100px;
+  width:540px;
+  left:400px;
+  text-align: justify;
+}
+
+.Goju2{
+  color:black;
+  position: fixed;
+  float: left;
+  top:170px;
+  font-size:18px;
+  width:540px;
+  left:400px;
+  text-align: justify;
 }
