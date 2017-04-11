@@ -1,0 +1,78 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* background: -webkit-linear-gradient(-90deg, rgb(237,28,36), white) ;*/
+  background: white;
+ font-family: "Raleway:400", sans-serif;
+}
+
+h1{
+	font-family: "Raleway:700", sans-serif;
+	float: none;
+	position: fixed;
+	left:465px;
+  font-size:75px;
+}
+
+
+.firstlink{
+  position: absolute;
+  top:30px;
+  left:240px;
+  cursor: pointer;
+}
+
+.paragraph1{
+	color:white;
+	position: fixed;
+  float: left;
+  font-size:18px;
+  top:200px;
+  width:540px;
+  left:400px;
+  text-align: justify;
+}
+
+.paragraph2{
+  color:white;
+  position: fixed;
+  float: left;
+  top:270px;
+  font-size:18px;
+  width:540px;
+  left:400px;
+  text-align: justify;
+}
+
+.secondlink{
+  position: absolute;
+  top: 55px;
+}
+.Uechi1{
+  color:black;
+  position: fixed;
+  float: left;
+  font-size:18px;
+  top:100px;
+  width:540px;
+  left:400px;
+  text-align: justify;
+}
+
+.Uechi2{
+  color:black;
+  position: fixed;
+  float: left;
+  top:170px;
+  font-size:18px;
+  width:540px;
+  left:400px;
+  text-align: justify;
+}
+
+.video1{
+  position:fixed;
+  left:400px;
+  top:300px;
+}
