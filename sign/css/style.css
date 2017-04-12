@@ -2,8 +2,8 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  /* background: -webkit-linear-gradient(-90deg, rgb(237,28,36), white) ;*/
-  background: white;
+   background: -webkit-linear-gradient(-90deg, rgb(237,28,36), white) ;
+ /* background: white;*/
  font-family: "Raleway:400", sans-serif;
 }
 
@@ -11,8 +11,10 @@ h1{
 	font-family: "Raleway:700", sans-serif;
 	float: none;
 	position: fixed;
-	left:465px;
+	left:480px;
   font-size:75px;
+  letter-spacing:-5px;
+  line-height:3rem;
 }
 
 
@@ -23,6 +25,7 @@ h1{
   cursor: pointer;
 }
 
+
 .paragraph1{
 	color:white;
 	position: fixed;
@@ -32,6 +35,8 @@ h1{
   width:540px;
   left:400px;
   text-align: justify;
+  animation-name: example;
+    animation-duration: 4s;
 }
 
 .paragraph2{
