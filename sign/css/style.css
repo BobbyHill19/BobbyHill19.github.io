@@ -8,11 +8,11 @@ html, body {
 }
 
 h1{
-	font-family: "Raleway:700", sans-serif;
-	float: none;
+	font-family: "Raleway", sans-serif;
+  font-weight: 700;
 	position: fixed;
-	left:480px;
-  font-size:75px;
+	left:300px;
+  font-size:150px;
   letter-spacing:-5px;
   line-height:3rem;
 }
@@ -20,7 +20,7 @@ h1{
 
 .firstlink{
   position: absolute;
-  top:30px;
+  top:90px;
   left:240px;
   cursor: pointer;
 }
@@ -28,22 +28,20 @@ h1{
 
 .paragraph1{
 	color:white;
-	position: fixed;
+	position: absolute;
   float: left;
   font-size:18px;
-  top:250px;
+  top:325px;
   width:540px;
   left:400px;
   text-align: justify;
-  animation-name: example;
-    animation-duration: 4s;
 }
 
 .paragraph2{
   color:white;
-  position: fixed;
+  position: absolute;
   float: left;
-  top:325px;
+  top:400px;
   font-size:18px;
   width:540px;
   left:400px;
