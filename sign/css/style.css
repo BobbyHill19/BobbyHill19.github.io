@@ -4,7 +4,8 @@ html, body {
   padding: 0;
    background: -webkit-linear-gradient(-90deg, rgb(237,28,36), white) ;
  /* background: white;*/
- font-family: "Raleway:400", sans-serif;
+ font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
 
 h1{
@@ -50,6 +51,7 @@ h1{
 
 .secondlink{
   position: absolute;
+  left:-280px;
   top: 55px;
 }
 .Uechi1{
