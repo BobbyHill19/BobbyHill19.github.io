@@ -1,11 +1,16 @@
 $(document).ready(function() {
 setTimeout(function(){
-$( "body" ).animate({"scrollTop": 250}, 500);
+$( "body" ).animate({"scrollTop": 250}, 5000);
 
 },1000)
 
+ // $( "#book" ).fadeIn( "slow", function() {
+ //    // Animation complete
+ //  });
 
-$(".secondlink").animate({"left":100 }, 3000)
+$(".secondlink").animate({"left":50 }, 2000)
+$(".thirdlink").animate({"left":900 }, 2000)
+$(".fourthlink").animate({"left":900 }, 2000)
 
 
 });

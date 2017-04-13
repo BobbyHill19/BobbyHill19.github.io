@@ -2,7 +2,8 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-   background: -webkit-linear-gradient(-90deg, rgb(237,28,36), white) ;
+   background: -webkit-linear-gradient(-90deg, rgb(255,115,30), white) ;
+   /*red rgb(237,28,36)*/
  /* background: white;*/
  font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -12,23 +13,54 @@ h1{
 	font-family: "Raleway", sans-serif;
   font-weight: 700;
 	position: fixed;
-	left:300px;
-  font-size:150px;
+	left:425px;
+  font-size:98px;
   letter-spacing:-5px;
-  line-height:3rem;
+  line-height:1rem;
 }
 
+h2{
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  position: fixed;
+  left:430px;
+  top:115px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+h3{
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  position: fixed;
+  left:675px;
+  top:115px;
+  font-size: 18px;
+  text-align: justify;
+
+}
+/*.date{
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  position: absolute;
+  left:700px;
+  top:115px;
+  font-size: 18px;
+  text-align: justify;
+}*/
 
 .firstlink{
   position: absolute;
   top:90px;
-  left:240px;
+  left:252px;
   cursor: pointer;
 }
 
 
 .paragraph1{
 	color:white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 	position: absolute;
   float: left;
   font-size:18px;
@@ -36,16 +68,22 @@ h1{
   width:540px;
   left:400px;
   text-align: justify;
+  letter-spacing: 1px;
+  line-height: -5px;
 }
 
 .paragraph2{
   color:white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   position: absolute;
   float: left;
-  top:400px;
+  top:425px;
   font-size:18px;
   width:540px;
   left:400px;
+  letter-spacing: 1px;
+   line-height: -5px;
   text-align: justify;
 }
 
@@ -57,7 +95,6 @@ h1{
 .Uechi1{
   color:black;
   position: fixed;
-  float: left;
   font-size:18px;
   top:100px;
   width:540px;
@@ -68,7 +105,6 @@ h1{
 .Uechi2{
   color:black;
   position: fixed;
-  float: left;
   top:170px;
   font-size:18px;
   width:540px;
@@ -85,13 +121,12 @@ h1{
 .thirdlink{
   position: absolute;
   top: 200px;
-  left:900px;
+  left:1275px;
 }
 
 .Isshin1{
   color:black;
   position: fixed;
-  float: left;
   font-size:18px;
   top:100px;
   width:540px;
@@ -102,7 +137,6 @@ h1{
 .Isshin2{
  color:black;
   position: fixed;
-  float: left;
   top:170px;
   font-size:18px;
   width:540px;
@@ -124,14 +158,13 @@ h1{
 
 .fourthlink{
   position: absolute;
-  top: 20px;
-  left:900px;
+  top: 25px;
+  left:1275px;
 }
 
 .Goju1{
   color:black;
   position: fixed;
-  float: left;
   font-size:18px;
   top:100px;
   width:540px;
@@ -142,7 +175,6 @@ h1{
 .Goju2{
   color:black;
   position: fixed;
-  float: left;
   top:170px;
   font-size:18px;
   width:540px;
