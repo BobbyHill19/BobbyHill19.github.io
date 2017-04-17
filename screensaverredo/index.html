@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>
+  		Channel your inner Wolf.
+  	</title>
+  	<style>
+		@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+	</style>
+
+  </head>  
+<link rel= "stylesheet" href="css/style.css">
+<body background="1.jpg">
+
+
+
+<script type="text/javascript">
+var now = new Date();
+var hours = now.getHours();
+
+//18-19 night
+if (hours > 17 && hours < 20){
+document.write ('<body style="background-color: #f07073">' );
+}
+//20-21 night
+else if (hours > 19 && hours < 22){
+document.write ('<body style="background-color: #d6565c">');
+}
+//22-4 night
+else if (hours > 21 || hours < 5){
+document.write ('<body style="background-color: #d34a51">');
+
+}
+//9-17 day
+else if (hours > 8 && hours < 18){
+document.write ('<body style="background-color: #d1373f">');
+}
+//7-8 day
+else if (hours > 6 && hours < 9){
+document.write ('<body style="background-color: #d63040>');}
+//5-6 day
+else if (hours > 4 && hours < 7){
+document.write ('<body style="background-color: #d30d20">');
+}
+else {
+document.write ('<body style="background-color: black">');
+}
+
+</script>
+<center>
+<script type="text/javascript"><!--
+var imlocation = "images/";
+ function ImageArray (n) {
+   this.length = n;
+   for (var i =1; i <= n; i++) {
+     this[i] = ' '
+   }
+ }
+image = new ImageArray(9);
+image[1] = 'one.png';
+image[2] = 'two.png';
+image[3] = 'three.png';
+image[4] = 'four.png';
+image[5] = 'five.png';
+var currentdate = new Date();
+var imagenumber = currentdate.getDay();
+document.write('<img src="' + imlocation + image[imagenumber] + '">');
+//--></script>
+</center>
+
+<marquee behavior="alternate" direction="right" scrolldelay="50">
+<img src="ten.gif" border="" 
+</marquee>
+<embed src="wolfhowl.mp3" autostart="true" loop="true"
+width="2" height="0">
+</embed>
+
+
+
+
+
+
+
+
+
+
+
