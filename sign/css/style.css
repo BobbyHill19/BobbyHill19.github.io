@@ -56,6 +56,14 @@ h3{
   cursor: pointer;
 }
 
+.risingsun{
+   position: absolute;
+  top:90px;
+  left:252px;
+  cursor: pointer;
+  opacity: 50%
+
+}
 
 .paragraph1{
 	color:white;
@@ -88,27 +96,32 @@ h3{
 }
 
 .secondlink{
-  position: absolute;
+  position: fixed;
   left:-280px;
   top: 55px;
 }
 .Uechi1{
   color:black;
   position: fixed;
-  font-size:18px;
+  font-size:14px;
   top:100px;
   width:540px;
-  left:400px;
+  left:415px;
   text-align: justify;
+  letter-spacing: 1px;
+   line-height: -5px;
 }
 
 .Uechi2{
   color:black;
   position: fixed;
-  top:170px;
-  font-size:18px;
+  top:140px;
+  font-size:14px;
   width:540px;
-  left:400px;
+  left:415px;
+  text-align: justify;
+  letter-spacing: 1px;
+   line-height: -5px;
   text-align: justify;
 }
 
@@ -119,7 +132,7 @@ h3{
 }
 
 .thirdlink{
-  position: absolute;
+  position: fixed;
   top: 200px;
   left:1275px;
 }
@@ -127,21 +140,25 @@ h3{
 .Isshin1{
   color:black;
   position: fixed;
-  font-size:18px;
+  font-size:14px;
   top:100px;
   width:540px;
   left:400px;
   text-align: justify;
+  letter-spacing: 1px;
+   line-height: -5px;
 }
 
 .Isshin2{
  color:black;
   position: fixed;
-  top:170px;
-  font-size:18px;
+  top:155px;
+  font-size:14px;
   width:540px;
   left:400px;
   text-align: justify;
+  letter-spacing: 1px;
+   line-height: -5px;
 }
 
 .video2{
@@ -157,7 +174,7 @@ h3{
 }
 
 .fourthlink{
-  position: absolute;
+  position: fixed;
   top: 25px;
   left:1275px;
 }
@@ -165,19 +182,23 @@ h3{
 .Goju1{
   color:black;
   position: fixed;
-  font-size:18px;
+  font-size:14px;
   top:100px;
   width:540px;
   left:400px;
   text-align: justify;
+   letter-spacing: 1px;
+   line-height: -5px;
 }
 
 .Goju2{
   color:black;
   position: fixed;
-  top:170px;
-  font-size:18px;
+  top:155px;
+  font-size:14px;
   width:540px;
   left:400px;
   text-align: justify;
+   letter-spacing: 1px;
+   line-height: -5px;
 }

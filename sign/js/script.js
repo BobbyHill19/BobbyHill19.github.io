@@ -9,8 +9,8 @@ $( "body" ).animate({"scrollTop": 250}, 5000);
  //  });
 
 $(".secondlink").animate({"left":50 }, 2000)
-$(".thirdlink").animate({"left":900 }, 2000)
-$(".fourthlink").animate({"left":900 }, 2000)
+$(".thirdlink").animate({"left":945 }, 2000)
+$(".fourthlink").animate({"left":935 }, 2000)
 
 
 });
