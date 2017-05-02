@@ -1,0 +1,125 @@
+body{
+	background-color: black;
+  background-blend-mode:hue; 
+}
+
+div {
+  tranition: all 1s ease-in-out;
+}
+
+#second-div{
+  background:transparent;
+  width: 500px;
+  transition: background 9s;
+  position: fixed;
+  top:250px;
+  left:4750px;
+}
+
+#third-div{
+  background:transparent;
+  width: 500px;
+  transition: background 9s;
+  position: fixed;
+  top:275px;
+  left:500px;
+}
+
+#fourth-div{
+  background:transparent;
+  width: 500px;
+  transition: background 9s;
+  position: fixed;
+  top:275px;
+  left:500px;
+}
+
+#fifth-div{
+  background:transparent;
+  width: 500px;
+  transition: background 9s;
+  position: fixed;
+  top:240px;
+  left:460px;
+}
+
+
+#sixth-div{
+  background:transparent;
+  width: 500px;
+  transition: background 9s;
+  position: fixed;
+  top:230px;
+  left:430px;
+}
+
+
+#seventh-div{
+  background:transparent;
+  width: 500px;
+  transition: background 9s;
+  position: fixed;
+  top:215px;
+  left:415px;
+}
+
+
+#eight-div{
+  background:transparent;
+  width: 500px;
+  transition: background 9s;
+  position: fixed;
+  top:205px;
+  left:400px;
+}
+
+#ninth-div{
+  background:transparent;
+  width: 500px;
+  transition: background 9s;
+  position: fixed;
+  top:185px;
+  left:385px;
+}
+
+
+#tenth-div{
+  background:transparent;
+  width: 500px;
+  transition: background 9s;
+  position: fixed;
+  top:200px;
+  left:370px;
+}
+
+#eleventh-div{
+  background:transparent;
+  width: 500px;
+  transition: background 9s;
+  position: absolute;
+  top:135px;
+  left:345px;
+}
+
+/*
+#twelfth-div{
+  background:transparent;
+  width: 500px;
+  transition: background 9s;
+  position: relative;
+  top:120px;
+  left:0px;
+}
+*/
+.fadeOut {
+ 
+ opacity: 0 
+ 
+}
+
+.fadeIn {
+
+  opacity: 0 
+}
+
+
