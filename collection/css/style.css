@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+   /*red rgb(237,28,36)*/
+  background: black;
+ font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+#brush:hover{
+  animation-name: pulse;
+  animation-duration: 1s;
+  cursor: pointer;
+}
+
+
+.firstlink{
+  position: absolute;
+  top:90px;
+  left:252px;
+  cursor: pointer;
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+ /* cursor: pointer;
+  font-weight: bold;
+  font-size: 50px;*/
+}
