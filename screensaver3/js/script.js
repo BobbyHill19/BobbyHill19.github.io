@@ -34,30 +34,30 @@ function scaleDivBySeconds() {
    "second-div", "twelfth-div" ];
 
 
-  var x = divs[ whichDiv ];
-  var element = document.getElementById( x )
-  console.log( element )
+//   var x = divs[ whichDiv ];
+//   var element = document.getElementById( x )
+//   console.log( element )
 
-  element.classList.add( "fadeOut" )
+//   element.classList.add( "fadeOut" )
 
-  var time = checkTime();
+//   var time = checkTime();
 
-  if( time.hours < 9 ) {
+//   if( time.hours < 9 ) {
     
-  } else {
+//   } else {
 
-  }
+//   }
 
 
-  if( whichDiv == 11 ) {
-    whichDiv = 0
-  }
+//   if( whichDiv == 11 ) {
+//     whichDiv = 0
+//   }
 
-  if (whichDiv < 11){
-    whichDiv = whichDiv + 1;
-  }
+//   if (whichDiv < 11){
+//     whichDiv = whichDiv + 1;
+//   }
 
-  if (whichDiv == 11){
+//   if (whichDiv == 11){
 
-  }
-}
+//   }
+// }
