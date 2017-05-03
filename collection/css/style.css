@@ -14,6 +14,65 @@ html, body {
   cursor: pointer;
 }
 
+.draggable{
+  position: absolute;
+  font-size: 50px;
+ left:-200px;
+  top:-100px;
+}
+
+.palette{
+  position: absolute;
+  left:125px;
+}
+
+.brushstroke1{
+position: absolute;
+  left:1000px;
+  top:25px;
+}
+
+.brushstroke2{
+position: absolute;
+  left:1000px;
+  top:200px;
+}
+
+.brushstroke3{
+position: absolute;
+  left:1000px;
+  top:350px;
+}
+
+.brushstroke4{
+position: absolute;
+  left:1000px;
+  top:500px;
+}
+
+.brushstroke5{
+position: absolute;
+  left:1000px;
+  top:600px;
+}
+
+.brushstroke6{
+position: absolute;
+  left:1000px;
+  top:750px;
+}
+
+.brushstroke7{
+position: absolute;
+  left:1000px;
+  top:875px;
+}
+
+.brushstroke8{
+position: absolute;
+  left:1000px;
+  top:950px;
+}
 
 .firstlink{
   position: absolute;
@@ -51,3 +110,5 @@ a {
   font-weight: bold;
   font-size: 50px;*/
 }
+
+
