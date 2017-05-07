@@ -22,7 +22,7 @@ background-color: black;
 
 .quote2{
 	position: absolute;
-	left:500px;
+	left:50px;
 	color:white;
 	font-size: 25px;
 	top:600px;
@@ -46,6 +46,34 @@ background-color: black;
 
 .work{
 	font-family: "Helvetica"
+}
+
+#quote:hover{
+  animation-name: pulse;
+  animation-duration: 1s;
+  cursor: pointer;
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
 }
 
 a {
