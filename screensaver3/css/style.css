@@ -1,6 +1,7 @@
 body{
-	background-color: black;
+/*	background-color: black;*/
   background-blend-mode:hue; 
+  font-family: "Libre Baskerville"
 }
 
 div {
@@ -8,109 +9,106 @@ div {
 }
 
 #second-div{
+  position: absolute;
+  background:transparent;
+  width: 500px;
+  transition: background 9s;
+  position: fixed;
+  left:4750px;
+}
+
+#third-div{
+   position: absolute;
+  background:transparent;
+  width: 500px;
+  transition: background 9s;
+  position: fixed;
+  top:25px;
+  left:20px;
+}
+
+#fourth-div{
+   position: absolute;
+  background:transparent;
+  width: 500px;
+  transition: background 9s;
+  position: fixed;
+  top:135px;
+  left:100px;
+}
+
+#fifth-div{
+   position: absolute;
   background:transparent;
   width: 500px;
   transition: background 9s;
   position: fixed;
   top:250px;
-  left:4750px;
-}
-
-#third-div{
-  background:transparent;
-  width: 500px;
-  transition: background 9s;
-  position: fixed;
-  top:275px;
-  left:500px;
-}
-
-#fourth-div{
-  background:transparent;
-  width: 500px;
-  transition: background 9s;
-  position: fixed;
-  top:275px;
-  left:500px;
-}
-
-#fifth-div{
-  background:transparent;
-  width: 500px;
-  transition: background 9s;
-  position: fixed;
-  top:240px;
-  left:460px;
+  left:200px;
 }
 
 
 #sixth-div{
+   position: absolute;
   background:transparent;
   width: 500px;
   transition: background 9s;
   position: fixed;
-  top:230px;
-  left:430px;
+  top:310px;
+  left:285px;
 }
-
 
 #seventh-div{
+   position: absolute;
   background:transparent;
   width: 500px;
   transition: background 9s;
   position: fixed;
-  top:215px;
-  left:415px;
+  top:515px;
+  left:450px;
 }
 
-
 #eight-div{
+   position: absolute;
   background:transparent;
   width: 500px;
   transition: background 9s;
   position: fixed;
-  top:205px;
-  left:400px;
+  top:900px;
+  left:600px;
 }
 
 #ninth-div{
+   position: absolute;
   background:transparent;
   width: 500px;
   transition: background 9s;
   position: fixed;
-  top:185px;
-  left:385px;
+  top:900px;
+  left:675px;
 }
 
 
 #tenth-div{
+   position: absolute;
   background:transparent;
   width: 500px;
   transition: background 9s;
   position: fixed;
-  top:200px;
-  left:370px;
+  top:900px;
+  left:750px;
 }
 
 #eleventh-div{
+   position: absolute;
   background:transparent;
   width: 500px;
   transition: background 9s;
   position: absolute;
-  top:135px;
-  left:345px;
+  top:1250px;
+  left:845px;
 }
 
-/*
-#twelfth-div{
-  background:transparent;
-  width: 500px;
-  transition: background 9s;
-  position: relative;
-  top:120px;
-  left:0px;
-}
-*/
 .fadeOut {
  
  opacity: 0 
@@ -120,6 +118,121 @@ div {
 .fadeIn {
 
   opacity: 0 
+}
+
+
+.word1,.word2,.word3, .word4,.word5{
+  color:white;
+  font-size: 30PX;
+  letter-spacing:8px;
+  line-height:1rem;
+}
+
+.word1{
+  position: absolute;
+  top:50px;
+  left:550px;
+}
+
+.word2{
+  position: absolute;
+  top:145px;
+  left:620px;
+}
+
+.word3{
+  position: absolute;
+  top:245px;
+  left:715px;
+}
+
+.word4{
+  position: absolute;
+  top:350px;
+  left:800px;
+}
+
+.word5{
+  position: absolute;
+  top:450px;
+  left:950px;
+}
+
+.blackbox1{
+  background-color: black;
+  width: 290px;
+  transition: background 3s;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  position: absolute;
+  left:550px;
+  top:55px;
+}
+
+.blackbox1:hover{
+  background-color: transparent;
+}
+
+
+.blackbox2{
+  background-color: black;
+  width: 310px;
+  transition: background 3s;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  position: absolute;
+  left:615px;
+  top:155px;
+}
+
+.blackbox2:hover{
+  background-color: transparent;
+}
+
+.blackbox3{
+ background-color: black;
+  width: 315px;
+  transition: background 3s;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  position: absolute;
+  left:710px;
+  top:250px;
+}
+
+.blackbox3:hover{
+  background-color: transparent;
+}
+
+.blackbox4{
+  background-color: black;
+  width: 335px;
+  transition: background 3s;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  position: absolute;
+  left:800px;
+  top:355px;
+}
+
+.blackbox4:hover{
+  background-color: transparent;
+}
+
+.blackbox5{
+ background-color: black;
+  width: 150px;
+  transition: background 3s;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  position: absolute;
+  left:950px;
+  top:460px;
+
+}
+
+.blackbox5:hover{
+  background-color: transparent;
 }
 
 
