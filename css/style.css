@@ -1,0 +1,58 @@
+body{
+background-color: black;
+  background-blend-mode:hue; 
+  font-family: "Bevan"
+}
+
+.name{
+	color:Red;
+	font-family: "Helvetica"
+	font-size:15px;
+}
+
+.quote1{
+	position: absolute;
+	left:450px;
+	top:-2px;
+	color:white;
+	font-size: 75px;
+	 letter-spacing:-2px;
+ /* line-height:1rem;*/
+}
+
+.quote2{
+	position: absolute;
+	left:500px;
+	color:white;
+	font-size: 25px;
+	top:600px;
+	letter-spacing:-1px;
+}
+
+.blackbox1{
+  background-color: red;
+  width: 290px;
+  transition: background 3s;
+  padding-top: 20px;
+  padding-bottom: -10px;
+  position: absolute;
+  left:500px;
+  top:560px;
+}
+
+.blackbox1:hover{
+  background-color: transparent;
+}
+
+.work{
+	font-family: "Helvetica"
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 15px;
+}
+
