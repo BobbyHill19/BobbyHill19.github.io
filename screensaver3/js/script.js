@@ -31,7 +31,7 @@ function scaleDivBySeconds() {
 
   var divs = [ "first-div", "eleventh-div", "tenth-div", "ninth-div", "eight-div",
   "seventh-div", "sixth-div", "fifth-div",  "fourth-div", "third-div", 
-   "second-div", "twelfth-div" ];
+  "second-div", "twelfth-div" ];
 
 
 //   var x = divs[ whichDiv ];
