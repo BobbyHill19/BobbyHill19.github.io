@@ -1,0 +1,116 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+   /*red rgb(237,28,36)*/
+  background: rgb(91,36,95);
+ font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+#brush:hover{
+  animation-name: pulse;
+  animation-duration: 1s;
+  cursor: pointer;
+}
+
+.firstlink{
+	position: absolute;
+  font-size: 50px;
+ left:200px;
+  top:50px;
+}
+
+
+a.brushstroke1{
+  position: relative;
+  left:-100px;
+  top:-25px;
+  z-index: 20;
+  color:#0000;
+  text-decoration: none;
+}
+
+a.brushstroke1:hover{
+  z-index:30;
+}
+
+a.brushstroke1 span.showdisplayonhover{
+  display: none;
+}
+
+a.brushstroke1:hover span.showdisplayonhover{
+  display:block;
+  position: absolute;
+  font-size: 18px;
+  left:50px;
+  top:50px;
+}
+
+span.showbodyofdisplayonhover{
+  font-size: 14px;
+  color:black;
+}
+
+.brushstroke2{
+position: absolute;
+  left:15px;
+  top:145px;
+}
+
+.brushstroke3{
+position: absolute;
+  left:125px;
+  top:145px;
+}
+
+.brushstroke4{
+position: absolute;
+  left:225px;
+   top:145px;
+}
+
+.brushstroke5{
+position: absolute;
+  left:350px;
+   top:145px;
+}
+
+.brushstroke6{
+position: absolute;
+  left:475px;
+  top:145px;
+}
+
+.brushstroke7{
+position: absolute;
+  left:600px;
+   top:145px;
+}
+
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+a {
+  color: white;
+  text-decoration: none;
