@@ -142,4 +142,22 @@ a {
   font-size: 50px;*/
 }
 
+@media screen and (max-width: 959px) (max-height: 651) {
+
+   .title{
+   width:80%;
+ 
+  }
+
+  body{
+    position: relative;
+  width: 30%;
+  padding: 20px;
+  margin: auto;
+ 
+
+  }
+.draggable{
+  width:50%;
+}
 
