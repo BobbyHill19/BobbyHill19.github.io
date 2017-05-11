@@ -21,7 +21,6 @@ html, body {
   top:50px;
 }
 
-
 a.brushstroke1{
   position: relative;
   left:-100px;
@@ -87,6 +86,13 @@ position: absolute;
   left:600px;
    top:145px;
 }
+
+.painting{
+  position: absolute;
+  left:800px;
+   top:150px;
+}
+
 
 
 @keyframes pulse {

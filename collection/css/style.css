@@ -2,15 +2,15 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-   /*red rgb(237,28,36)*/
-  background: black;
+/*  background: black;*/
  font-family: "Raleway", sans-serif;
+ background: -webkit-linear-gradient(-90deg, rgb(235,32,17),rgb(20,31,158), rgb(251,245,17)) ;
   font-weight: 400;
 }
 
 .title{
   position: absolute;
-  left:2px;
+  left:125px;
 }
 
 #brush:hover{
@@ -21,9 +21,9 @@ html, body {
 
 .draggable{
   position: absolute;
-  font-size: 50px;
+  font-size: 36px;
  left:-200px;
-  top:50px;
+  top:90px;
 }
 
 .secondlink{
@@ -34,31 +34,31 @@ top:3px;
 
 .thirdlink{
   position: absolute;
-left:210px;
+left:180px;
 top:3px;
 }
 
 .fourthlink{
   position: absolute;
-left:175px;
+left:150px;
 top:3px;
 }
 
 .fifthlink{
    position: absolute;
-left:-590px;
-top:175px;
+left:175px;
+top:3px;
 }
 
 .sixthlink{
 position: absolute;
-left:200px;
+left:180px;
 top:3px;
 }
 
 .seventhlink{
 position: absolute;
-left:210px;
+left:190px;
 top:3px;
 }
 
@@ -66,43 +66,43 @@ top:3px;
 .brushstroke1{
 position: absolute;
   left:10px;
-  top:450px;
+  top:350px;
 }
 
 .brushstroke2{
 position: absolute;
   left:250px;
-  top:500px;
+  top:400px;
 }
 
 .brushstroke3{
 position: absolute;
-  left:410px;
-  top:500px;
+  left:400px;
+  top:400px;
 }
 
 .brushstroke4{
 position: absolute;
-  left:600px;
-  top:500px;
+  left:550px;
+  top:400px;
 }
 
 .brushstroke5{
 position: absolute;
-  left:800px;
-  top:225px;
+  left:730px;
+  top:400px;
 }
 
 .brushstroke6{
 position: absolute;
-  left:800px;
-  top:350px;
+  left:900px;
+  top:400px;
 }
 
 .brushstroke7{
 position: absolute;
-  left:800px;
-  top:500px;
+  left:1075px;
+  top:400px;
 }
 
 .firstlink{

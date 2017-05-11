@@ -16,7 +16,7 @@ html, body {
 
 .firstlink{
 	position: absolute;
-  font-size: 50px;
+  font-size: 36px;
  left:200px;
   top:50px;
 }
@@ -24,7 +24,7 @@ html, body {
 a.brushstroke1{
   position: relative;
   left:-100px;
-  top:-25px;
+  top:25px;
   z-index: 20;
   color:#0000;
   text-decoration: none;
@@ -85,6 +85,12 @@ position: absolute;
 position: absolute;
   left:600px;
    top:145px;
+}
+
+.painting{
+  position: absolute;
+  left:800px;
+   top:150px;
 }
 
 
